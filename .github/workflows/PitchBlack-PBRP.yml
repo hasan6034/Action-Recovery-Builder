@@ -152,7 +152,7 @@ jobs:
         cd android-recovery
         source build/envsetup.sh
         export ALLOW_MISSING_DEPENDENCIES=true
-        lunch pb_selene-eng && mka pbrp
+        lunch pb_fire-eng && mka pbrp
 
     - name: Check Build Makefile
       run: |
